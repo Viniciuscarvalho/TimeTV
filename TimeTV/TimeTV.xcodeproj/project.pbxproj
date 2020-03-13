@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAAE2CDB241B14C40097B807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE2CDA241B14C40097B807 /* AppDelegate.swift */; };
+		EAAE2CDD241B14C40097B807 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE2CDC241B14C40097B807 /* SceneDelegate.swift */; };
+		EAAE2CDF241B14C40097B807 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE2CDE241B14C40097B807 /* ContentView.swift */; };
+		EAAE2CE1241B14CA0097B807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAE2CE0241B14CA0097B807 /* Assets.xcassets */; };
+		EAAE2CE4241B14CA0097B807 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAE2CE3241B14CA0097B807 /* Preview Assets.xcassets */; };
+		EAAE2CE7241B14CA0097B807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAE2CE5241B14CA0097B807 /* LaunchScreen.storyboard */; };
+		EAAE2CF2241B14CA0097B807 /* TimeTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE2CF1241B14CA0097B807 /* TimeTVTests.swift */; };
+		EAAE2D0E241B16D90097B807 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE2D0D241B16D90097B807 /* APIEndpoint.swift */; };
+		EAAE2D10241B16EB0097B807 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE2D0F241B16EB0097B807 /* NetworkService.swift */; };
+		EAAE2D17241B1CDC0097B807 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE2D16241B1CDC0097B807 /* AppAppearance.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAAE2CEE241B14CA0097B807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAE2CCF241B14C40097B807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAE2CD6241B14C40097B807;
+			remoteInfo = TimeTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAAE2CD7241B14C40097B807 /* TimeTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE2CDA241B14C40097B807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAAE2CDC241B14C40097B807 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAAE2CDE241B14C40097B807 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAAE2CE0241B14CA0097B807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAAE2CE3241B14CA0097B807 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAAE2CE6241B14CA0097B807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAAE2CE8241B14CA0097B807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAE2CED241B14CA0097B807 /* TimeTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE2CF1241B14CA0097B807 /* TimeTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTVTests.swift; sourceTree = "<group>"; };
+		EAAE2CF3241B14CA0097B807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAE2D0D241B16D90097B807 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		EAAE2D0F241B16EB0097B807 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EAAE2D16241B1CDC0097B807 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAAE2CD4241B14C40097B807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE2CEA241B14CA0097B807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAAE2CCE241B14C40097B807 = {
+			isa = PBXGroup;
+			children = (
+				EAAE2CD9241B14C40097B807 /* TimeTV */,
+				EAAE2CF0241B14CA0097B807 /* TimeTVTests */,
+				EAAE2CD8241B14C40097B807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAAE2CD8241B14C40097B807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2CD7241B14C40097B807 /* TimeTV.app */,
+				EAAE2CED241B14CA0097B807 /* TimeTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAAE2CD9241B14C40097B807 /* TimeTV */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2D02241B15390097B807 /* Application */,
+				EAAE2D01241B15340097B807 /* Domain */,
+				EAAE2D00241B15080097B807 /* Presentation */,
+				EAAE2CFF241B15040097B807 /* Data */,
+				EAAE2CFE241B14F70097B807 /* Infrastructure */,
+				EAAE2CFD241B14EB0097B807 /* Resources */,
+				EAAE2CFC241B14E40097B807 /* Common */,
+				EAAE2CE2241B14CA0097B807 /* Preview Content */,
+			);
+			path = TimeTV;
+			sourceTree = "<group>";
+		};
+		EAAE2CE2241B14CA0097B807 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2CE3241B14CA0097B807 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAAE2CF0241B14CA0097B807 /* TimeTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2CF1241B14CA0097B807 /* TimeTVTests.swift */,
+				EAAE2CF3241B14CA0097B807 /* Info.plist */,
+			);
+			path = TimeTVTests;
+			sourceTree = "<group>";
+		};
+		EAAE2CFC241B14E40097B807 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2CE8241B14CA0097B807 /* Info.plist */,
+				EAAE2CDE241B14C40097B807 /* ContentView.swift */,
+				EAAE2CDC241B14C40097B807 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EAAE2CFD241B14EB0097B807 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2CE5241B14CA0097B807 /* LaunchScreen.storyboard */,
+				EAAE2CE0241B14CA0097B807 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EAAE2CFE241B14F70097B807 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2D0C241B16A70097B807 /* Network */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		EAAE2CFF241B15040097B807 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2D11241B17760097B807 /* DataMapping */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EAAE2D00241B15080097B807 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2D0B241B160D0097B807 /* Utils */,
+				EAAE2D06241B15CE0097B807 /* MoviesDetails */,
+				EAAE2D05241B15C50097B807 /* MoviesList */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EAAE2D01241B15340097B807 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2D14241B1B900097B807 /* Interfaces */,
+				EAAE2D04241B159D0097B807 /* UseCases */,
+				EAAE2D03241B15550097B807 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EAAE2D02241B15390097B807 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2CDA241B14C40097B807 /* AppDelegate.swift */,
+				EAAE2D16241B1CDC0097B807 /* AppAppearance.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EAAE2D03241B15550097B807 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EAAE2D04241B159D0097B807 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		EAAE2D05241B15C50097B807 /* MoviesList */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2D12241B18D10097B807 /* ViewController */,
+				EAAE2D08241B15DD0097B807 /* ViewModel */,
+				EAAE2D07241B15D60097B807 /* View */,
+			);
+			path = MoviesList;
+			sourceTree = "<group>";
+		};
+		EAAE2D06241B15CE0097B807 /* MoviesDetails */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2D13241B18D90097B807 /* ViewController */,
+				EAAE2D0A241B15E90097B807 /* ViewModel */,
+				EAAE2D09241B15E50097B807 /* View */,
+			);
+			path = MoviesDetails;
+			sourceTree = "<group>";
+		};
+		EAAE2D07241B15D60097B807 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAAE2D08241B15DD0097B807 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EAAE2D09241B15E50097B807 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAAE2D0A241B15E90097B807 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EAAE2D0B241B160D0097B807 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EAAE2D0C241B16A70097B807 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2D0D241B16D90097B807 /* APIEndpoint.swift */,
+				EAAE2D0F241B16EB0097B807 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EAAE2D11241B17760097B807 /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		EAAE2D12241B18D10097B807 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EAAE2D13241B18D90097B807 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EAAE2D14241B1B900097B807 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE2D15241B1B990097B807 /* Repositories */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EAAE2D15241B1B990097B807 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAAE2CD6241B14C40097B807 /* TimeTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAE2CF6241B14CA0097B807 /* Build configuration list for PBXNativeTarget "TimeTV" */;
+			buildPhases = (
+				EAAE2CD3241B14C40097B807 /* Sources */,
+				EAAE2CD4241B14C40097B807 /* Frameworks */,
+				EAAE2CD5241B14C40097B807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTV;
+			productName = TimeTV;
+			productReference = EAAE2CD7241B14C40097B807 /* TimeTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAAE2CEC241B14CA0097B807 /* TimeTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAE2CF9241B14CA0097B807 /* Build configuration list for PBXNativeTarget "TimeTVTests" */;
+			buildPhases = (
+				EAAE2CE9241B14CA0097B807 /* Sources */,
+				EAAE2CEA241B14CA0097B807 /* Frameworks */,
+				EAAE2CEB241B14CA0097B807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAAE2CEF241B14CA0097B807 /* PBXTargetDependency */,
+			);
+			name = TimeTVTests;
+			productName = TimeTVTests;
+			productReference = EAAE2CED241B14CA0097B807 /* TimeTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAAE2CCF241B14C40097B807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Vinicius Carvalho";
+				TargetAttributes = {
+					EAAE2CD6241B14C40097B807 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					EAAE2CEC241B14CA0097B807 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = EAAE2CD6241B14C40097B807;
+					};
+				};
+			};
+			buildConfigurationList = EAAE2CD2241B14C40097B807 /* Build configuration list for PBXProject "TimeTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAAE2CCE241B14C40097B807;
+			productRefGroup = EAAE2CD8241B14C40097B807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAE2CD6241B14C40097B807 /* TimeTV */,
+				EAAE2CEC241B14CA0097B807 /* TimeTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAAE2CD5241B14C40097B807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE2CE7241B14CA0097B807 /* LaunchScreen.storyboard in Resources */,
+				EAAE2CE4241B14CA0097B807 /* Preview Assets.xcassets in Resources */,
+				EAAE2CE1241B14CA0097B807 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE2CEB241B14CA0097B807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAAE2CD3241B14C40097B807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE2D10241B16EB0097B807 /* NetworkService.swift in Sources */,
+				EAAE2CDB241B14C40097B807 /* AppDelegate.swift in Sources */,
+				EAAE2CDD241B14C40097B807 /* SceneDelegate.swift in Sources */,
+				EAAE2D17241B1CDC0097B807 /* AppAppearance.swift in Sources */,
+				EAAE2D0E241B16D90097B807 /* APIEndpoint.swift in Sources */,
+				EAAE2CDF241B14C40097B807 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE2CE9241B14CA0097B807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE2CF2241B14CA0097B807 /* TimeTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAAE2CEF241B14CA0097B807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAAE2CD6241B14C40097B807 /* TimeTV */;
+			targetProxy = EAAE2CEE241B14CA0097B807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAAE2CE5241B14CA0097B807 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAE2CE6241B14CA0097B807 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAAE2CF4241B14CA0097B807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAAE2CF5241B14CA0097B807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAAE2CF7241B14CA0097B807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U8286L9PF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TimeTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciuscarvalho.TimeTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAAE2CF8241B14CA0097B807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U8286L9PF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TimeTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciuscarvalho.TimeTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAAE2CFA241B14CA0097B807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U8286L9PF;
+				INFOPLIST_FILE = TimeTVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciuscarvalho.TimeTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTV.app/TimeTV";
+			};
+			name = Debug;
+		};
+		EAAE2CFB241B14CA0097B807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U8286L9PF;
+				INFOPLIST_FILE = TimeTVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciuscarvalho.TimeTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTV.app/TimeTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAAE2CD2241B14C40097B807 /* Build configuration list for PBXProject "TimeTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE2CF4241B14CA0097B807 /* Debug */,
+				EAAE2CF5241B14CA0097B807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAE2CF6241B14CA0097B807 /* Build configuration list for PBXNativeTarget "TimeTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE2CF7241B14CA0097B807 /* Debug */,
+				EAAE2CF8241B14CA0097B807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAE2CF9241B14CA0097B807 /* Build configuration list for PBXNativeTarget "TimeTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE2CFA241B14CA0097B807 /* Debug */,
+				EAAE2CFB241B14CA0097B807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAAE2CCF241B14C40097B807 /* Project object */;
+}
