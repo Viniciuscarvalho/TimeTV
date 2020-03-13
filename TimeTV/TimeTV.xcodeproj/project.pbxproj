@@ -136,6 +136,7 @@
 		EAAE2CFE241B14F70097B807 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				EAAE2D18241B1F010097B807 /* Common */,
 				EAAE2D0C241B16A70097B807 /* Network */,
 			);
 			path = Infrastructure;
@@ -290,6 +291,13 @@
 			children = (
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		EAAE2D18241B1F010097B807 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
